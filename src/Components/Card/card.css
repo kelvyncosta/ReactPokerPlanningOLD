@@ -1,0 +1,69 @@
+/*
+=========================================
+=========================================
+
+Item Name: Poker Plan (Card)
+Version: 1.0
+Author: Kelvyn Costa
+
+=========================================
+========================================= */
+.a {
+  background-color: #3B7960;
+  grid-area: a;
+}
+
+.b {
+  background-color: #d9534f;
+  grid-area: b;
+}
+
+.c {
+  background-color: #5bc0de;
+  grid-area: c;
+}
+
+.d {
+  background-color: #5cb85c;
+  grid-area: d;
+}
+
+.e {
+  background-color: #d3a625;
+  grid-area: e;
+}
+
+.f {
+  background-color: #be29ec;
+  grid-area: f;
+}
+
+.g {
+  background-color: #fb2e01;
+  grid-area: g;
+}
+
+.h {
+  background-color: #6fcb9f;
+  grid-area: h;
+}
+
+.i {
+  background-color: #666547;
+  grid-area: i;
+}
+
+.j {
+  background-color: #d696bb;
+  grid-area: j;
+}
+
+.k {
+  background-color: #0084ff;
+  grid-area: k;
+}
+
+.l {
+  background-color: #bcb841;
+  grid-area: l;
+}

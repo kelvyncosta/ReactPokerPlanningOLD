@@ -1,0 +1,60 @@
+/*
+=========================================
+=========================================
+
+Item Name: Poker Planning
+Version: 1.0
+Author: Kelvyn Costa
+
+=========================================
+========================================= */
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,700|Righteous');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #252946;
+  color: #98A8B4;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.deck {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    'a b c'
+    'd e f'
+    'g h i'
+    'j k l';
+  height: 100vh;
+}
+
+.cardContainer.showCard {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  font-size: 5rem;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-size: 2rem;
+}

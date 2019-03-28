@@ -27,34 +27,49 @@ html {
 body {
   background-color: #252946;
   color: #98A8B4;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Righteous', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+  overflow: hidden;
 }
 
 .deck {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-    'a b c'
-    'd e f'
-    'g h i'
-    'j k l';
+  width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 
 .cardContainer.showCard {
-  position: fixed;
   width: 100vw;
   height: 100vh;
-  font-size: 5rem;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  font-size: 10rem;
+  transition:
+    z-index .00005s linear,
+    left .5s ease,
+    top .5s ease,
+    height .5s ease-in-out .5s,
+    width .5s ease-in-out 1s,
+    font-size .5s ease-in-out 1s
 }
 
 .cardContainer {
+  z-index: 1;
+  height: 25vh;
+  width: calc(100% / 3);
+  position: absolute;
+  font-size: 3rem;
+  color: #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
-  font-size: 2rem;
+  transition:
+    font-size .5s ease-in-out,
+    width .5s ease-in-out,
+    height .5s ease-in-out .5s,
+    top .5s ease 1s,
+    left .5s ease 1s,
+    z-index .00005s linear 1s;
 }

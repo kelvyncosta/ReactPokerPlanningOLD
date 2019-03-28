@@ -8,62 +8,102 @@ Author: Kelvyn Costa
 
 =========================================
 ========================================= */
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 90px;
+  transition: width .5s ease-in-out;
+}
+
+.cardContainer.showCard .card img {
+  width: 210px;
+  transition: width .5s ease-in-out 1s;
+}
+
 .a {
   background-color: #3B7960;
   grid-area: a;
+  top: 0;
+  left: 0;
 }
 
 .b {
   background-color: #d9534f;
   grid-area: b;
+  top: 0;
+  left: calc(100% / 3);
 }
 
 .c {
   background-color: #5bc0de;
   grid-area: c;
+  top: 0;
+  left: calc(100% / 3 * 2);
 }
 
 .d {
   background-color: #5cb85c;
   grid-area: d;
+  top: 25vh;
+  left: 0;
 }
 
 .e {
   background-color: #d3a625;
   grid-area: e;
+  top: 25vh;
+  left: calc(100% / 3);
 }
 
 .f {
   background-color: #be29ec;
   grid-area: f;
+  top: 25vh;
+  left: calc(100% / 3 * 2);
 }
 
 .g {
   background-color: #fb2e01;
   grid-area: g;
+  top: 50vh;
+  left: 0;
 }
 
 .h {
   background-color: #6fcb9f;
   grid-area: h;
+  top: 50vh;
+  left: calc(100% / 3);
 }
 
 .i {
   background-color: #666547;
   grid-area: i;
+  top: 50vh;
+  left: calc(100% / 3 * 2);
 }
 
 .j {
   background-color: #d696bb;
   grid-area: j;
+  top: 75vh;
+  left: 0;
 }
 
 .k {
   background-color: #0084ff;
   grid-area: k;
+  top: 75vh;
+  left: calc(100% / 3);
 }
 
 .l {
-  background-color: #bcb841;
+  background-color: #ffd75e;
   grid-area: l;
+  top: 75vh;
+  left: calc(100% / 3 * 2);
 }

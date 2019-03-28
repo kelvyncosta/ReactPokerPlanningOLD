@@ -3,7 +3,15 @@ import Card from './Card'
 import '../Content/reset.css'
 import '../Content/global.css'
 
+import coffee from '../Content/CoffeeIcon.png'
+
 export default class App extends Component {
+
+  constructor() {
+    super()
+    document.title = 'Poker Planning'
+  }
+
   render() {
     return (
       <div className="deck">
@@ -18,7 +26,7 @@ export default class App extends Component {
           <Card container="i" value="40" />
           <Card container="j" value="100" />
           <Card container="k" value="?" />
-          <Card container="l" value="Coffee" />
+          <Card container="l" image={ coffee } />
       </div>
     );
   }

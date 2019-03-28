@@ -68,8 +68,8 @@ body {
   transition:
     font-size .5s ease-in-out,
     width .5s ease-in-out,
-    height .5s ease-in-out .5s,
-    top .5s ease 1s,
-    left .5s ease 1s,
+    height .5s ease-in-out,
+    top .5s ease,
+    left .5s ease,
     z-index .00005s linear 1s;
 }

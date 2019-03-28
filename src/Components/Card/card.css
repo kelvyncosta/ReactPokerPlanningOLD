@@ -12,14 +12,16 @@ Author: Kelvyn Costa
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.card img {
+.card > img {
   width: 90px;
   transition: width .5s ease-in-out;
+  position: relative;
 }
 
-.cardContainer.showCard .card img {
+.cardContainer.showCard .card > img {
   width: 210px;
   transition: width .5s ease-in-out 1s;
 }
@@ -67,7 +69,7 @@ Author: Kelvyn Costa
 }
 
 .g {
-  background-color: #fb2e01;
+  background-color: #666547;
   grid-area: g;
   top: 50vh;
   left: 0;
@@ -81,7 +83,7 @@ Author: Kelvyn Costa
 }
 
 .i {
-  background-color: #666547;
+  background-color: #fb2e01;
   grid-area: i;
   top: 50vh;
   left: calc(100% / 3 * 2);

@@ -1,6 +1,11 @@
 # React Poker Planning
 
+[![Build Status](https://img.shields.io/travis/kelvyncosta/PokerPlanning.svg?style=for-the-badge)](https://travis-ci.org/kelvyncosta/PokerPlanning)
+
 [![GitHub license](https://img.shields.io/github/license/kelvyncosta/PokerPlanning.svg?color=G&style=for-the-badge)](https://github.com/kelvyncosta/PokerPlanning/blob/master/LICENSE.md)
+
+[![Last version](https://img.shields.io/github/package-json/v/kelvyncosta/PokerPlanning.svg?style=for-the-badge)](https://github.com/kelvyncosta/PokerPlanning/blob/master/CHANGELOG.md)
+
 
 **Planify:** React Poker Planning ® PWA built with React
 
